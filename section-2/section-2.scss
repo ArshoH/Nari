@@ -10,11 +10,12 @@ p{
     justify-content: space-between;
     &__coach{
         width: 100%;
+        padding-top: 52px;
         box-shadow: 0px 10px 15px rgba(80, 80, 80, 0.08);
         margin-bottom:56px;
         &-text{
             padding:0  98px 58px  185px;
-            &>p:first-child{
+            &>p{
                 font-family:Montserrat;
                 font-style: normal;
                 font-weight: normal;
@@ -64,7 +65,7 @@ p{
                 margin: 0;
                 padding: 60px 0;
             }
-            &>button{
+            >button{
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: bold;
@@ -93,45 +94,146 @@ p{
                 margin:  0  0  39px 29px;
                 >img{
                     width: 240.59px;
-                    height: 113.96px;
                     transform: rotate(10deg);
-                }
-                >p{
-                    font-family: Serenity;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 54px;
-                    line-height: 77px;
-                    text-align: center;
-                    color: $white;
                 }
             }
             >img{
                 width: 461px;
-                height: 692px;
             }
         }
     }
 }
 @media (max-width:1440px){
     .section-2__coach-text{
-        padding:0  60px 28px  150px;
+        padding:0  60px 28px  141px;
+        >p{
+            font-size: 27px;
+        }
+    }
+    .section-2__coach-text-osf{
+        font-size: 23px;
     }
     .section-2__title{
         width: 80%;
     }
 }
-@media (max-width:1020px){
+@media (max-width:1024px){
     .section-2__coach-text{
-        padding:0  20px 8px  80px;
+        padding:0  60px 28px  141px;
+        >p{
+            font-size: 22px;
+        }
+    }
+    .section-2__coach-text-osf{
+        font-size: 18px;
     }
     .section-2__title{
         width: 100%;
     }
+    .section-2__hola-air-title{
+        >img{
+            width: 165px;
+        }
+    }
+    .section-2__hola-air{
+        width: 55%;
+        >img{
+            width: 406px;
+            transform: translateX(-90px);
+        }
+        
+    }
+    .section-2__hola-text{
+        >img{
+            width: 260px;
+        }
+        >p{
+            font-size: 18px;
+        }
+        >button{
+            padding: 25px 82px;
+        }
+    }
 }
 @media (max-width: 768px){
-
+    .section-2__coach-text{
+        padding:0  19px 28px  19px;
+        >p{
+            font-size: 16px;
+        }
+    }
+    .section-2__coach-text-osf{
+        font-size: 16px;
+    }
+    .section-2__hola-air-title{
+        >img{
+            width: 127.42px;
+        }
+    }
+    .section-2__hola-air{
+        width: 423px;
+        height: 389px;
+        >img{
+            width: 322px;
+            transform: translateX(-54px);
+        }
+        
+    }
+    .section-2__hola-text{
+        >img{
+            width: 202px;
+        }
+        >p{
+            font-size: 16px;
+        }
+        >button{
+            padding: 25px 62px;
+        }
+    }
 }
-@media (max-width: 440px){
-
+@media (max-width: 480px){
+    .section-2__coach-text{
+        padding:0  19px 28px  19px;
+        >p{
+            font-size: 16px;
+        }
+    }
+    .section-2__coach-text-osf{
+        font-size: 16px;
+    }
+    .section-2__hola{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        height: 508.08px;
+        // background-color: red;
+        
+    }
+    .section-2__hola-air-title{
+        >img{
+            width: 127.42px;
+        }
+    }
+    .section-2__hola-air{
+        // overflow-x: hidden;
+        width: 423px;
+        height: 392.15px;
+        transform: translateY(58px);
+        >img{
+            width: 315px;
+            transform: translateX(-51px);
+        }
+        
+    }
+    .section-2__hola-text{
+        padding: 0 34px;
+        >img{
+            width: 165px;
+        }
+        >p{
+            font-size: 16px;
+        }
+        >button{
+            padding: 23px 75px;
+        }
+    }
 }
